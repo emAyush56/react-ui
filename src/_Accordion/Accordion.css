@@ -1,0 +1,11 @@
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0, 1, 0, 1);
+}
+
+.accordion-content.show {
+  height: auto;
+  max-height: 500px;
+  transition: all 0.4s cubic-bezier(0, 1, 0, 1);
+}

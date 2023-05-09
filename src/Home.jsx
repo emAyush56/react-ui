@@ -7,10 +7,13 @@ function Home() {
       <h1 className="text-3xl font-semibold">React UI Components</h1>
       <ul className="mt-8 list-inside list-decimal space-y-2 text-lg underline-offset-2 transition-all">
         <li className="transition-all hover:translate-x-1 hover:text-amber-500">
+          <Link to="/file-upload">File Upload</Link>
+        </li>
+        <li className="transition-all hover:translate-x-1 hover:text-amber-500">
           <Link to="/accordion">Accordion</Link>
         </li>
         <li className="transition-all hover:translate-x-1 hover:text-amber-500">
-          <Link to="/file-upload">File Upload</Link>
+          <Link to="/modal">Modal</Link>
         </li>
       </ul>
       <footer className="mt-auto text-sm text-gray-400">

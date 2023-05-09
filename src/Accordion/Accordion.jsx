@@ -56,7 +56,9 @@ function AccordionItem({ itemSelected, setItemSelected, item, idx }) {
   return (
     <div
       onClick={() => itemToggler(idx)}
-      className="accordion-item cursor-pointer rounded-3xl bg-gray-50/50 px-6 py-7 transition-all hover:bg-gray-50"
+      className={`accordion-item cursor-pointer rounded-3xl px-6 py-7 transition-all hover:bg-gray-50 ${
+        itemSelected === idx ? "bg-gray-50" : null
+      }`}
     >
       <div className="item-heading flex cursor-pointer items-center">
         <h4 className="text-lg font-medium">{item.title}</h4>

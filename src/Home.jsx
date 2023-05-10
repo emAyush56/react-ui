@@ -16,14 +16,25 @@ function Home() {
           <Link to="/modal">Modal</Link>
         </li>
       </ul>
-      <footer className="mt-auto text-sm text-gray-400">
-        Made by{" "}
-        <a
-          href="https://ayush.ieyeindia.com"
-          className="transition-all hover:text-amber-500"
-        >
-          Ayush
-        </a>
+      <footer className="mt-auto flex justify-between text-sm text-gray-400">
+        <div className="credits">
+          Made by{" "}
+          <a
+            href="https://ayush.ieyeindia.com"
+            className="transition-all hover:text-amber-500"
+          >
+            Ayush
+          </a>
+        </div>
+        <div className="links">
+          <a
+            target="_blank"
+            href="https://github.com/emAyush56/react-ui-components"
+            className="transition-all hover:text-amber-500"
+          >
+            Github Repo
+          </a>
+        </div>
       </footer>
     </div>
   );

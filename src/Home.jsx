@@ -15,6 +15,9 @@ function Home() {
         <li className="transition-all hover:translate-x-1 hover:text-amber-500">
           <Link to="/modal">Modal</Link>
         </li>
+        <li className="transition-all hover:translate-x-1 hover:text-amber-500">
+          <Link to="/email-subscribe">Email Subscribe (Clone)</Link>
+        </li>
       </ul>
       <footer className="mt-auto flex justify-between text-sm text-gray-400">
         <div className="credits">

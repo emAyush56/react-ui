@@ -5,7 +5,7 @@ function EmailSubscribe() {
     <div className="flex h-screen flex-col items-center">
       <div className="wrapper mt-auto w-fit rounded-md bg-[#F5F5F4] py-0.5 pr-1 pl-2.5">
         <input
-          type="text"
+          type="email"
           placeholder="you@domain.com"
           className="w-40 rounded-md bg-[#F5F5F4] py-1.5 text-sm text-gray-700 focus:outline-none"
         />

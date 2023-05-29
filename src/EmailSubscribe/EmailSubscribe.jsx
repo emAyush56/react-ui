@@ -13,7 +13,7 @@ function EmailSubscribe() {
           Subscribe
         </button>
       </div>
-      <div className="info mt-auto mb-10 text-xs text-gray-200">
+      <div className="info mb-10 mt-auto px-4 text-center text-xs text-gray-200">
         This is a clone inspired from the{" "}
         <a
           target="_blank"

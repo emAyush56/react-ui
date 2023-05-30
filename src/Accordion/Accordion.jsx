@@ -29,7 +29,7 @@ function Accordion() {
   const [itemSelected, setItemSelected] = useState(null);
 
   return (
-    <div className="flex h-screen items-center justify-center text-gray-800">
+    <div className="flex h-screen items-center justify-center px-4 text-gray-800">
       <div className="accordion w-[440px] space-y-3">
         {data.map((item, idx) => {
           return (
@@ -56,18 +56,13 @@ function AccordionItem({ itemSelected, setItemSelected, item, idx }) {
   return (
     <div
       onClick={() => itemToggler(idx)}
-      className={`accordion-item cursor-pointer rounded-3xl px-6 py-7 transition-all hover:bg-gray-50 ${
+      className={`accordion-item cursor-pointer select-none rounded-3xl bg-gray-50 px-6 py-7 transition-all hover:bg-gray-100/70 ${
         itemSelected === idx ? "bg-gray-50" : null
       }`}
     >
       <div className="item-heading flex cursor-pointer items-center">
         <h4 className="text-lg font-medium">{item.title}</h4>
         <div className="item-heading-icon ml-auto">
-          {/* {itemSelected === idx ? (
-            <ChevronUp className="h-5 w-5 stroke-2 text-gray-800" />
-          ) : (
-            <ChevronDown className="h-5 w-5 stroke-2 text-gray-800" />
-          )} */}
           <ChevronDown
             className={`h-5 w-5 stroke-2 text-gray-800 transition-all duration-200 ${
               itemSelected === idx ? "rotate-180" : null

@@ -1,0 +1,16 @@
+.wrapper {
+  /* background-color: #f27117; */
+}
+
+.image-container {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100%;
+  background-image: url("../../../ayushsaha-protfolio-v2/assets/0_monochrome_filter.jpg");
+  background-size: contain;
+  transition: background-image 0.3s ease; /* Add the transition property */
+}
+
+.image-container:hover {
+  background-image: url("../../../ayushsaha-protfolio-v2/assets/1_orange_original.jpg");
+}

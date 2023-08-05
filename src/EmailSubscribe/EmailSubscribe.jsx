@@ -3,13 +3,13 @@ import React from "react";
 function EmailSubscribe() {
   return (
     <div className="flex h-screen flex-col items-center">
-      <div className="wrapper mt-auto w-fit rounded-md bg-[#F5F5F4] py-0.5 pr-1 pl-2.5">
+      <div className="wrapper mt-auto w-fit rounded-md bg-[#F5F5F4] py-0.5 pl-2.5 pr-1">
         <input
-          type="email"
+          type="text"
           placeholder="you@domain.com"
           className="w-40 rounded-md bg-[#F5F5F4] py-1.5 text-sm text-gray-700 focus:outline-none"
         />
-        <button className="ml-3 rounded border border-gray-200 bg-[#FAFAF9] px-1.5 py-0.5 text-sm text-gray-500 transition-all hover:bg-[#FAFAF9]/50">
+        <button className="hover:bg-[#FAFAF9]/50 ml-3 rounded border border-gray-200 bg-[#FAFAF9] px-1.5 py-0.5 text-sm text-gray-500 transition-all">
           Subscribe
         </button>
       </div>

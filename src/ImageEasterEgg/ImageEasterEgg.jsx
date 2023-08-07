@@ -28,19 +28,17 @@ function ImageEasterEgg() {
   };
 
   return (
-    <div className="wrapper mx-auto h-screen max-w-lg px-6 py-8">
+    <div className="wrapper mx-auto h-screen max-w-lg select-none px-6 py-8">
       <header>
         <div
-          className="image h-28 w-28 cursor-pointer transition-all active:scale-95 "
+          className="image h-28 w-28 cursor-pointer select-none transition-all active:scale-95"
           onClick={handleImgClick}
         >
           <img
             src={imgSrc}
-            className="h-full w-full rounded-full shadow-xl transition-all"
+            className="h-full w-full select-none rounded-full shadow-xl transition-all"
           />
         </div>
-
-        <div className="image-container mt-6"></div>
       </header>
     </div>
   );

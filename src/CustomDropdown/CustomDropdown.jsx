@@ -56,7 +56,7 @@ function CustomDropdown() {
   }, [dropdownSelected, handleOutsideClick]);
 
   return (
-    <div className="custom-dropdown-wrapper flex h-screen flex-col items-center justify-center gap-10 text-gray-800">
+    <div className="custom-dropdown-wrapper flex h-screen flex-col items-center justify-center gap-10 px-8 text-gray-800 sm:px-0">
       <div
         ref={dropdownRef}
         className="option custom-dropdown relative w-[22rem]"

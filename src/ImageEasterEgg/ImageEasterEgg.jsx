@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./style.css";
-import ImgMonochrome from "../__assets/0_monochrome_filter.jpg";
-import ImgOrange from "../__assets/1_orange_original.jpg";
-import ImgPink from "../__assets/3_pink_filter.jpg";
+import ImgMonochrome from "../__assets/0_monochrome_filter_light-min.jpg";
+import ImgOrange from "../__assets/1_orange_original-min.jpg";
+import ImgPink from "../__assets/3_pink_filter-min.jpg";
 const allImages = [
   {
     id: 1,

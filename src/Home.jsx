@@ -27,6 +27,12 @@ function Home() {
         <li className="transition-all hover:translate-x-1 hover:text-amber-500">
           <Link to="/custom-dropdown">Custom Dropdown (Filterable)</Link>
         </li>
+        <li className="transition-all hover:translate-x-1 hover:text-amber-500">
+          <Link to="/multistep-quiz">Multistep Quiz</Link>
+        </li>
+        <li className="transition-all hover:translate-x-1 hover:text-amber-500">
+          <Link to="/multistep-quiz-2">Multistep Quiz 2</Link>
+        </li>
       </ul>
       <footer className="mt-auto flex justify-between text-sm text-gray-400">
         <div className="credits">

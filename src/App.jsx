@@ -7,6 +7,8 @@ import Home from "./Home";
 import DynamicElement from "./DynamicElement/DynamicElement";
 import ImageEasterEgg from "./ImageEasterEgg/ImageEasterEgg";
 import CustomDropdown from "./CustomDropdown/CustomDropdown";
+import MultiStepQuiz from "./MultiStepQuiz/MultiStepQuiz";
+import MultiStepQuiz2 from "./MultiStepQuiz2/MultiStepQuiz2";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/dynamic-element" element={<DynamicElement />} />
         <Route path="/image-easter-egg" element={<ImageEasterEgg />} />
         <Route path="/custom-dropdown" element={<CustomDropdown />} />
+        <Route path="/multistep-quiz" element={<MultiStepQuiz />} />
+        <Route path="/multistep-quiz-2" element={<MultiStepQuiz2 />} />
       </Routes>
     </div>
   );
